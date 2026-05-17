@@ -1,0 +1,52 @@
+root,intermediate,terminal,correlation,lag_hours
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,2G cell down,0.1921,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,2G cell down,0.1911,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,2G cell down,0.1886,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Adjacent Node IP Address Ping Failure,2G cell down,0.2767,1.0
+X2 Interface Fault,Adjacent Node IP Address Ping Failure,2G cell down,0.2699,1.0
+Cell RX Channel Interference Noise Power Unbalanced,Adjacent Node IP Address Ping Failure,2G cell down,0.2651,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Commercial Power Down (Main Power Down),2G cell down,0.4187,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Commercial Power Down (Main Power Down),2G cell down,0.3963,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Commercial Power Down (Main Power Down),2G cell down,0.3837,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,3G cell down,0.1921,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,3G cell down,0.1911,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,3G cell down,0.1886,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Adjacent Node IP Address Ping Failure,3G cell down,0.2767,1.0
+X2 Interface Fault,Adjacent Node IP Address Ping Failure,3G cell down,0.2699,1.0
+Cell RX Channel Interference Noise Power Unbalanced,Adjacent Node IP Address Ping Failure,3G cell down,0.2651,1.0
+Cell RX Channel Interference Noise Power Unbalanced,UMTS Cell MC-HSDPA Function Fault,3G cell down,0.2531,4.0
+Cell RX Channel Interference Noise Power Unbalanced,UMTS Cell MC-HSDPA Function Fault,3G cell down,0.2509,5.0
+Cell RX Channel Interference Noise Power Unbalanced,UMTS Cell MC-HSDPA Function Fault,3G cell down,0.2487,6.0
+UMTS Cell Unavailable,Statistical Alarm,3G cell down,0.1917,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Statistical Alarm,3G cell down,0.1672,4.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Statistical Alarm,3G cell down,0.1616,2.0
+High Temperature (35Â°),Local Cell Unusable,4G cell down,0.3038,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Local Cell Unusable,4G cell down,0.2936,3.0
+High Temperature (35Â°),Local Cell Unusable,4G cell down,0.2882,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,4G cell down,0.1921,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,4G cell down,0.1911,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,4G cell down,0.1886,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,X2 Interface Fault,4G cell down,0.4751,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,X2 Interface Fault,4G cell down,0.4593,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,X2 Interface Fault,4G cell down,0.4416,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,User Plane Fault,4G cell down,0.4744,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,User Plane Fault,4G cell down,0.4553,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,User Plane Fault,4G cell down,0.4531,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,LOSS-OF-ALL CHANNEL,0.1921,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,LOSS-OF-ALL CHANNEL,0.1911,3.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,SCTP Link Fault,LOSS-OF-ALL CHANNEL,0.1886,2.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Adjacent Node IP Address Ping Failure,LOSS-OF-ALL CHANNEL,0.2767,1.0
+X2 Interface Fault,Adjacent Node IP Address Ping Failure,LOSS-OF-ALL CHANNEL,0.2699,1.0
+Cell RX Channel Interference Noise Power Unbalanced,Adjacent Node IP Address Ping Failure,LOSS-OF-ALL CHANNEL,0.2651,1.0
+Cell RX Channel Interference Noise Power Unbalanced,GTPC Tunnel Path Broken,LOSS-OF-ALL CHANNEL,0.255,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,GTPC Tunnel Path Broken,LOSS-OF-ALL CHANNEL,0.2458,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,GTPC Tunnel Path Broken,LOSS-OF-ALL CHANNEL,0.2397,3.0
+Cell RX Channel Interference Noise Power Unbalanced,UMTS Cell MC-HSDPA Function Fault,LOSS-OF-ALL CHANNEL,0.2531,4.0
+Cell RX Channel Interference Noise Power Unbalanced,UMTS Cell MC-HSDPA Function Fault,LOSS-OF-ALL CHANNEL,0.2509,5.0
+Cell RX Channel Interference Noise Power Unbalanced,UMTS Cell MC-HSDPA Function Fault,LOSS-OF-ALL CHANNEL,0.2487,6.0
+Cell RX Channel Interference Noise Power Unbalanced,Cell Outage,Pas De Supervision,0.2905,1.0
+RF Unit RX Channel RTWP/RSSI Unbalanced,Cell Outage,Pas De Supervision,0.2782,1.0
+Cell RX Channel Interference Noise Power Unbalanced,Cell Outage,Pas De Supervision,0.2736,2.0
+Commercial Power Down (Main Power Down),Parallel Alarm Exceeds the Limit,Pas De Supervision,0.1318,3.0
+Cell RX Channel Interference Noise Power Unbalanced,Parallel Alarm Exceeds the Limit,Pas De Supervision,0.1276,1.0
+X2 Interface Fault,Parallel Alarm Exceeds the Limit,Pas De Supervision,0.1239,2.0
