@@ -96,7 +96,7 @@ MAPPING_RULES: dict[str, str] = {
     "gNodeB Out of Service"      : "LOSS-OF-ALL CHANNEL",
 }
 HS_ALARM_NAMES: set[str]  = set(MAPPING_RULES.keys())
-WINDOWS_MIN:   list[int]  = [5, 15, 30, 60]
+WINDOWS_MIN:   list[int]  = [5, 15, 30, 60, 1440]
 TOP_PRECURSORS: int        = 20
 N_JOBS:         int        = -1
 TEMPORAL_COLS: list[str]  = ["hour", "day_of_week", "month", "is_night", "is_weekend"]
@@ -278,7 +278,7 @@ def build_rolling_features(
     feat_df = pd.concat(results).sort_index()
     # feat_df is 0..N-1, matching the internally-reset df.
     # Restore caller's original index so it aligns with df_raw.
-    feat_df.index = original_index
+    feat_df.index = original_index[feat_df.index.values]
     return feat_df, top_precursor_alarms
 
 
@@ -650,6 +650,10 @@ def predict_hs(
         )
 
     X, _ = prepare_X_y(new_df, rolling)
+    X['burst_ratio_5_60']   = X['n_total_5m']  / X['n_total_60m'].clip(lower=1)
+    X['burst_ratio_5_1440'] = X['n_total_5m']  / X['n_total_1440m'].clip(lower=1)
+    X['hs_burst_5_60']      = X['n_hs_5m']     / X['n_hs_60m'].clip(lower=1)
+    X['hs_burst_60_1440']   = X['n_hs_60m']    / X['n_hs_1440m'].clip(lower=1)
     X    = X[meta["feature_names"]]   # guarantee column order matches training
 
     proba = model.predict_proba(X.values.astype("float32"))[:, 1]
